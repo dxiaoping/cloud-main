@@ -20,6 +20,7 @@ public class HelloController {
     public RestTemplate getResttemplate(){
         return new RestTemplate();
     }
+    //用于发送url请求
     @Autowired
     private RestTemplate resttemplate;
 
