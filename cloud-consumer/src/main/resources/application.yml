@@ -1,0 +1,15 @@
+
+server:
+  port: 8001
+spring:
+  application:
+    name: cloud-consumer
+
+# eureka ≈‰÷√
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://jorian:123456@localhost:7315/eureka
+logging:
+  level:
+    root: INFO
